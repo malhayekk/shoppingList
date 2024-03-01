@@ -69,3 +69,8 @@ ul li:hover {
     background-color: #F7F6BB;
     cursor: pointer;
 }
+
+img{
+    width: 320px;
+    border-radius: 8px;
+}
