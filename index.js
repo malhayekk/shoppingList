@@ -7,7 +7,7 @@ const appSettings = {
 
 const app = initializeApp(appSettings)
 const database = getDatabase(app)
-const shoppingListInDB = ref(database, "shoppingList")
+const shoppingListInDB = ref(database, "MBList")
 
 const inputFieldEl = document.getElementById("input-field")
 const addButtonEl = document.getElementById("add-button")
