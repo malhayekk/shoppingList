@@ -25,14 +25,15 @@ input {
     border-radius: 8px;
     font-size: 20px;
     text-align: center;
-    font-family: 'Rubik', sans-serif;
-    margin: 0;
+    /*adding top and bottom margin of 5px*/    
+    margin: 5px 0;
 }
 #buttonSection{
     display: flex;
     flex-direction: row;
     gap: 5px;
-    margin: 0;
+    /*adding top and bottom margin of 5px*/    
+    margin: 5px 0;
 }
 
 button {
@@ -57,7 +58,8 @@ ul {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    margin: 0;
+    /*adding top and bottom margin of 5px*/    
+    margin: 5px 0;
 }
 
 ul li {
