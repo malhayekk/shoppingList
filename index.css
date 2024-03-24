@@ -30,6 +30,11 @@ input {
     font-family: 'Rubik', sans-serif;
     margin: 10px 0;
 }
+#buttonSection{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
 
 button {
     color: #FDFDFD;
@@ -39,7 +44,7 @@ button {
     border-radius: 8px;
     font-size: 20px;
     text-align: center;
-    font-family: 'Rubik', sans-serif;
+    flex: 1;
 }
 
 button:hover {
