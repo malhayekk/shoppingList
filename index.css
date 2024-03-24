@@ -14,9 +14,9 @@ html, body {
     margin: 30px auto;
 }
 
-img {
-    width: 150px;
-    margin: 0 auto;
+img{
+    width: 320px;
+    border-radius: 8px;
 }
 
 input {
@@ -70,7 +70,3 @@ ul li:hover {
     cursor: pointer;
 }
 
-img{
-    width: 320px;
-    border-radius: 8px;
-}
