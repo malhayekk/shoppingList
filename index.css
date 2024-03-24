@@ -32,6 +32,7 @@ input {
     display: flex;
     flex-direction: row;
     gap: 5px;
+    margin: 10px 0;
 }
 
 button {
